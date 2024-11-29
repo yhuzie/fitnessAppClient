@@ -1,0 +1,291 @@
+.custom-navbar {
+  background: linear-gradient(45deg, #0d6efd, #6610f2);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.custom-navbar .brand-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff !important;
+}
+
+.custom-navbar .nav-link-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff !important;
+  margin-right: 10px;
+  transition: color 0.3s ease;
+}
+
+.custom-navbar .nav-link-text:hover {
+  color: #ffdd59 !important;
+}
+
+.custom-navbar .navbar-toggler {
+  border: none;
+}
+
+.custom-navbar .navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/*------------------------HOME JS-----------------------------------------*/
+
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #0d6efd, #6610f2);
+  color: white;
+}
+
+.hero-section {
+  padding: 50px 20px;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero-title span {
+  color: #ffdd59;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.button-group .btn {
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+}
+
+.button-group .btn-primary {
+  background-color: #ffdd59;
+  color: #0d6efd;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.button-group .btn-primary:hover {
+  background-color: #ffbe33;
+  color: white;
+}
+
+.button-group .btn-outline-light {
+  border-color: #ffdd59;
+  color: #ffdd59;
+  transition: all 0.3s ease;
+}
+
+.button-group .btn-outline-light:hover {
+  background-color: #ffdd59;
+  color: #0d6efd;
+}
+
+/* ----------------------------------REGISTER JS -----------------------------------------------------*/
+
+.register-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #80d8ff, #e0f7fa);
+}
+
+.register-card {
+  max-width: 400px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.register-card h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #0d6efd;
+}
+
+.register-card .btn-primary {
+  background-color: #0d6efd;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.register-card .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.register-card a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.register-card a:hover {
+  text-decoration: underline;
+}
+
+.register-card form {
+  font-family: "Roboto", sans-serif;
+}
+
+.register-card form label {
+  font-weight: bold;
+  color: #555;
+}
+
+/* --------------------------------------------------------LOGIN-----------------------------------------*/
+
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #80d8ff, #e0f7fa);
+}
+
+.login-card {
+  max-width: 400px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.login-card h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #0d6efd;
+}
+
+.login-card .btn-primary {
+  background-color: #0d6efd;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.login-card .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.login-card a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login-card a:hover {
+  text-decoration: underline;
+}
+
+.login-card form {
+  font-family: "Roboto", sans-serif;
+}
+
+.login-card form label {
+  font-weight: bold;
+  color: #555;
+}
+
+.login-card .text-center {
+  font-weight: 500;
+}
+
+.login-card .text-primary {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* ------------------------------------------WORKOUT JS -------------------------------------------*/
+
+.workout-dashboard {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.dashboard-title {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.button-container .btn {
+  width: 100%;
+  margin: 5px 0;
+}
+
+button {
+  font-size: 1rem;
+  padding: 10px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.form-group label {
+  font-size: 1rem;
+  color: #555;
+}
