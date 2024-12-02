@@ -70,5 +70,4 @@ function App() {
   );
 }
 
-export default App; 
-//testing lang 
+export default App;
